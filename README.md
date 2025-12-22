@@ -351,6 +351,6 @@ This screen demonstrates how **AutomationZ Uploader** integrates into the Automa
 - Visual status & logging feedback
 
 ## Notes
-This interface is part of the **AutomationZ Admin Control Center** suite.
+These interfaces are part of the **AutomationZ Admin Control Center** suite.
 
 Created by **Danny van den Brande**
