@@ -1,4 +1,4 @@
-# 🛠️ AutomationZ Admin Control Panel (Orchestrator) [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R51QD7BU)
+# 🛠️ AutomationZ Admin Control Panel [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R51QD7BU)
 
 AutomationZ Admin Control Panel is the **central command hub** for all AutomationZ automation tools.
 It allows you to control, schedule, monitor, and maintain multiple game servers and services
