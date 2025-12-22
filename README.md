@@ -3,7 +3,25 @@
 AutomationZ Admin Control Panel is the **central command hub** for all AutomationZ automation tools.
 It allows you to control, schedule, monitor, and maintain multiple game servers and services
 from **one unified desktop interface**.
+
+# AutomationZ_Admin_Control_Center
+
 [![Automation_Z_Admin_Control_Center.png](https://i.postimg.cc/d0ymHhY8/Automation_Z_Admin_Control_Center.png)](https://postimg.cc/hJKdhPhj)
+
+## Overview
+Main AutomationZ Control Center dashboard launching and supervising all AutomationZ tools.
+
+## Purpose
+This screen demonstrates how **AutomationZ Admin Control Center** integrates into the AutomationZ ecosystem.
+
+## Key Features
+- Unified AutomationZ dark UI
+- Profile-based server targeting
+- Safe automation workflows
+- Visual status & logging feedback
+
+## Notes
+This interface is part of the **AutomationZ Admin Control Center** suite.
 
 This is a **server-side automation control panel** for real administrators.
 
