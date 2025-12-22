@@ -275,4 +275,17 @@ This screen demonstrates how **AutomationZ Admin Orchestrator** integrates into 
 - Safe automation workflows
 - Visual status & logging feedback
 
+# AutomationZ_Log_Cleanup_Scheduler
 
+[![Automation_Z_Log_Cleanup_Scheduler.png](https://i.postimg.cc/DzXdjSTJ/Automation_Z_Log_Cleanup_Scheduler.png)](https://postimg.cc/wt9m3T3g)
+## Overview
+Automated log retention and cleanup scheduler to prevent disk bloat and keep servers clean.
+
+## Purpose
+This screen demonstrates how **AutomationZ Log Cleanup Scheduler** integrates into the AutomationZ ecosystem.
+
+## Key Features
+- Unified AutomationZ dark UI
+- Profile-based server targeting
+- Safe automation workflows
+- Visual status & logging feedback
