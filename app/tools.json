@@ -1,0 +1,58 @@
+{
+  "tools": [
+    {
+      "id": "admin_orchestrator",
+      "name": "AutomationZ Admin Orchestrator",
+      "type": "python",
+      "entry": "../AutomationZ_Admin_Orchestrator/app/main.py",
+      "cwd": "../AutomationZ_Admin_Orchestrator",
+      "args": [],
+      "description": "Plans + mappings + profiles, push presets to targets, optional restart + verify."
+    },
+    {
+      "id": "scheduler",
+      "name": "AutomationZ Scheduler",
+      "type": "python",
+      "entry": "../AutomationZ_Scheduler/app/main.py",
+      "cwd": "../AutomationZ_Scheduler",
+      "args": [],
+      "description": "Legacy scheduler (v1) \u2013 runs planned tasks at set times."
+    },
+    {
+      "id": "backup_scheduler",
+      "name": "AutomationZ Server Backup Scheduler",
+      "type": "python",
+      "entry": "../AutomationZ_Server_Backup_Scheduler/app/main.py",
+      "cwd": "../AutomationZ_Server_Backup_Scheduler",
+      "args": [],
+      "description": "Automated backups (FTP/local) \u2013 scheduled and manual."
+    },
+    {
+      "id": "server_health",
+      "name": "AutomationZ Server Health",
+      "type": "python",
+      "entry": "../AutomationZ_Server_Health/app/main.py",
+      "cwd": "../AutomationZ_Server_Health",
+      "args": [],
+      "description": "Health checks for servers (pings, endpoints, warning alerts)."
+    },
+    {
+      "id": "log_cleanup",
+      "name": "AutomationZ Log Cleanup Scheduler",
+      "type": "python",
+      "entry": "../AutomationZ_Log_Cleanup_Scheduler/app/main.py",
+      "cwd": "../AutomationZ_Log_Cleanup_Scheduler",
+      "args": [],
+      "description": "Delete log-folder contents on a schedule (local + FTP), with exclusion rules."
+    },
+    {
+      "id": "uploader",
+      "name": "AutomationZ Uploader",
+      "type": "python",
+      "entry": "../AutomationZ_Uploader/app/main.py",
+      "cwd": "../AutomationZ_Uploader",
+      "args": [],
+      "description": "Upload presets / files to servers (FTP/FTPS) \u2013 standalone tool."
+    }
+  ]
+}
