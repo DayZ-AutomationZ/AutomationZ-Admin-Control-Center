@@ -29,13 +29,14 @@ This is a **server-side automation control panel** for real administrators.
 
 ## 👑 What This Tool Is
 
-AutomationZ Admin Orchestrator acts as the **master controller** for:
+AutomationZ Admin Control Center acts as the **master controller** for:
 
 - AutomationZ Uploader
 - AutomationZ Scheduler
 - AutomationZ Backup Scheduler
 - AutomationZ Server Health Monitor
 - AutomationZ Log Cleanup Scheduler
+- AutomationZ Orchestrator
 - Future AutomationZ tools
 
 All tools share:
@@ -249,9 +250,7 @@ backups/<profile>/<job>/<timestamp>/
 Planned tools:
 - Mod update auto-deployer
 - Restart orchestrator
-- Player/queue watcher
-- Config diff viewer
-- Multi-server rollout
+
 
 All future tools inherit:
 - Same UI
@@ -260,9 +259,20 @@ All future tools inherit:
 
 ---
 
-## 👑 Author
+# Included Tools:
+# AutomationZ_Admin_Orchestrator
 
-Created by **Danny van den Brande**  
-AutomationZ Project
+[![Automation_Z_Admin_Orchestrator.png](https://i.postimg.cc/FKLgWY43/Automation_Z_Admin_Orchestrator.png)](https://postimg.cc/rdqrzFzw)
+## Overview
+Central orchestration engine combining plans, mappings, profiles, and scheduling into one control flow.
 
-Control. Automation. Ownership.
+## Purpose
+This screen demonstrates how **AutomationZ Admin Orchestrator** integrates into the AutomationZ ecosystem.
+
+## Key Features
+- Unified AutomationZ dark UI
+- Profile-based server targeting
+- Safe automation workflows
+- Visual status & logging feedback
+
+
