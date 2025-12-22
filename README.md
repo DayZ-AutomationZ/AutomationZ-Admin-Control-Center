@@ -319,3 +319,18 @@ This screen demonstrates how **AutomationZ Server Backup Scheduler** integrates 
 - Profile-based server targeting
 - Safe automation workflows
 - Visual status & logging feedback
+
+# AutomationZ_Server_Health
+
+[![Automation_Z_Server_Health.png](https://i.postimg.cc/5tCq7XVF/Automation_Z_Server_Health.png)](https://postimg.cc/1gyq4549)
+## Overview
+Live server log monitoring tool with crash detection, error scanning, and Discord notifications.
+
+## Purpose
+This screen demonstrates how **AutomationZ Server Health** integrates into the AutomationZ ecosystem.
+
+## Key Features
+- Unified AutomationZ dark UI
+- Profile-based server targeting
+- Safe automation workflows
+- Visual status & logging feedback
