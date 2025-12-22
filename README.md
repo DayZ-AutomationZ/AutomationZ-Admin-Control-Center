@@ -305,3 +305,17 @@ This screen demonstrates how **AutomationZ Scheduler** integrates into the Autom
 - Safe automation workflows
 - Visual status & logging feedback
 
+# AutomationZ_Server_Backup_Scheduler
+
+[![Automation_Z_Server_Backup_Scheduler.png](https://i.postimg.cc/zfgStyrg/Automation_Z_Server_Backup_Scheduler.png)](https://postimg.cc/3y3vWJW8)
+## Overview
+Scheduled snapshot and backup automation with profile-based targets and restore-ready archives.
+
+## Purpose
+This screen demonstrates how **AutomationZ Server Backup Scheduler** integrates into the AutomationZ ecosystem.
+
+## Key Features
+- Unified AutomationZ dark UI
+- Profile-based server targeting
+- Safe automation workflows
+- Visual status & logging feedback
