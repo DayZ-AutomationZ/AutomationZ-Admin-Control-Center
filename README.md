@@ -334,3 +334,23 @@ This screen demonstrates how **AutomationZ Server Health** integrates into the A
 - Profile-based server targeting
 - Safe automation workflows
 - Visual status & logging feedback
+
+# AutomationZ_Uploader
+
+[![Automation_Z_Uploader.png](https://i.postimg.cc/DzXdjST4/Automation_Z_Uploader.png)](https://postimg.cc/MczQXKXz)
+## Overview
+Preset-based FTP/FTPS uploader for pushing server configuration files safely with preview, backups, and exact path mapping.
+
+## Purpose
+This screen demonstrates how **AutomationZ Uploader** integrates into the AutomationZ ecosystem.
+
+## Key Features
+- Unified AutomationZ dark UI
+- Profile-based server targeting
+- Safe automation workflows
+- Visual status & logging feedback
+
+## Notes
+This interface is part of the **AutomationZ Admin Control Center** suite.
+
+Created by **Danny van den Brande**
