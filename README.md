@@ -289,3 +289,19 @@ This screen demonstrates how **AutomationZ Log Cleanup Scheduler** integrates in
 - Profile-based server targeting
 - Safe automation workflows
 - Visual status & logging feedback
+
+# AutomationZ_Scheduler
+
+[![Automation_Z_Scheduler.png](https://i.postimg.cc/HLy4Zrgb/Automation_Z_Scheduler.png)](https://postimg.cc/WDsktbt4)
+## Overview
+Time-based automation engine for executing preset uploads and tasks without server restarts.
+
+## Purpose
+This screen demonstrates how **AutomationZ Scheduler** integrates into the AutomationZ ecosystem.
+
+## Key Features
+- Unified AutomationZ dark UI
+- Profile-based server targeting
+- Safe automation workflows
+- Visual status & logging feedback
+
