@@ -339,7 +339,10 @@ This screen demonstrates how **AutomationZ Scheduler** integrates into the Autom
 - Visual status & logging feedback
 
 # AutomationZ_Server_Backup_Scheduler
-
+[Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/AutomationZ-Server-Backup-Scheduler) 
+Nothing new under the hood here — this version only changes the UI.
+The logic and functionality are exactly the same as the original tool.
+If you already use AutomationZ, you can just drop the `main.py` in the AutomationZ_Admin_Orchestrator folder from this repo into the original repository to switch to the new design.
 [![Automation_Z_Server_Backup_Scheduler.png](https://i.postimg.cc/zfgStyrg/Automation_Z_Server_Backup_Scheduler.png)](https://postimg.cc/3y3vWJW8)
 ## Overview
 Scheduled snapshot and backup automation with profile-based targets and restore-ready archives.
