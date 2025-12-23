@@ -38,6 +38,30 @@ AutomationZ Admin Control Center acts as the **master controller** for:
 - AutomationZ Server Health Monitor [Go to AutomationZ Server Health Monitor](#AutomationZ_Server_Health)
 - AutomationZ Uploader [Go to AutomationZ Uploader](#AutomationZ_Uploader)
 - Future AutomationZ tools
+
+## 🧰 AutomationZ Tools Overview
+
+- **AutomationZ Admin Orchestrator**
+  Plans + mappings + profiles, push presets to targets, optional restart + verify.
+
+- **AutomationZ Log Cleanup Scheduler**  
+  Automatically clean and rotate server logs to prevent disk bloat and maintain long-term stability.  
+
+- **AutomationZ Scheduler**  
+  Execute time-based automation tasks such as preset uploads or configuration changes without manual intervention.
+
+- **AutomationZ Server Backup Scheduler**  
+  Create scheduled server backups and snapshots with profile-based targets and restore-ready archives.
+
+- **AutomationZ Server Health Monitor**  
+  Monitor live server logs, detect crashes and errors, and send real-time alerts via Discord.
+
+- **AutomationZ Uploader**  
+  Safely deploy configuration presets to servers using FTP/FTPS with preview, validation, and automatic backups.
+
+- **Future AutomationZ Tools**  
+  The AutomationZ platform is designed for expansion, allowing new automation modules to integrate seamlessly into the control panel.  
+
  
 All tools share:
 - Identical UI theme
@@ -261,7 +285,7 @@ All future tools inherit:
 
 # Included Tools:
 # AutomationZ_Admin_Orchestrator
-[Original Projects Repo](https://github.com/DayZ-AutomationZ/AutomationZ_Admin_Orchestrator)
+[Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/AutomationZ_Admin_Orchestrator) The corresponding main.py in this repo can simply be added to the original repo. the only different is the Design of the UI the rest is exactly the same. So if you allready use the Original Tool just drop in the main.py if you want to change the UI Design.
 [![Automation_Z_Admin_Orchestrator.png](https://i.postimg.cc/FKLgWY43/Automation_Z_Admin_Orchestrator.png)](https://postimg.cc/rdqrzFzw)
 ## Overview 
 Central orchestration engine combining plans, mappings, profiles, and scheduling into one control flow.
