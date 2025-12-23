@@ -357,7 +357,10 @@ This screen demonstrates how **AutomationZ Server Backup Scheduler** integrates 
 - Visual status & logging feedback
 
 # AutomationZ_Server_Health
-
+[Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/AutomationZ-Server-Health) 
+Nothing new under the hood here — this version only changes the UI.
+The logic and functionality are exactly the same as the original tool.
+If you already use AutomationZ, you can just drop the `main.py` in the AutomationZ_Admin_Orchestrator folder from this repo into the original repository to switch to the new design.
 [![Automation_Z_Server_Health.png](https://i.postimg.cc/5tCq7XVF/Automation_Z_Server_Health.png)](https://postimg.cc/1gyq4549)
 ## Overview
 Live server log monitoring tool with crash detection, error scanning, and Discord notifications.
