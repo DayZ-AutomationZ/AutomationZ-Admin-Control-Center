@@ -38,7 +38,7 @@ AutomationZ Admin Control Center acts as the **master controller** for:
 - AutomationZ Server Health Monitor [Go to AutomationZ Server Health Monitor](#AutomationZ_Server_Health)
 - AutomationZ Uploader [Go to AutomationZ Uploader](#AutomationZ_Uploader)
 - Future AutomationZ tools
-
+ 
 All tools share:
 - Identical UI theme
 - Identical workflow logic
@@ -263,7 +263,7 @@ All future tools inherit:
 # AutomationZ_Admin_Orchestrator
 https://github.com/DayZ-AutomationZ/AutomationZ_Admin_Orchestrator
 [![Automation_Z_Admin_Orchestrator.png](https://i.postimg.cc/FKLgWY43/Automation_Z_Admin_Orchestrator.png)](https://postimg.cc/rdqrzFzw)
-## Overview
+## Overview [Go back to tool list](#master)
 Central orchestration engine combining plans, mappings, profiles, and scheduling into one control flow.
 
 ## Purpose
