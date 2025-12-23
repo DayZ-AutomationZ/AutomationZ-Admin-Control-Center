@@ -31,7 +31,7 @@ This is a **server-side automation control panel** for real administrators.
 
 AutomationZ Admin Control Center acts as the **master controller** for:
 
-- AutomationZ Uploader
+- AutomationZ Uploader [Go to AutomationZ Uploader](#automationz-uploader)
 - AutomationZ Scheduler
 - AutomationZ Backup Scheduler
 - AutomationZ Server Health Monitor
@@ -261,7 +261,7 @@ All future tools inherit:
 
 # Included Tools:
 # AutomationZ_Admin_Orchestrator
-
+https://github.com/DayZ-AutomationZ/AutomationZ_Admin_Orchestrator
 [![Automation_Z_Admin_Orchestrator.png](https://i.postimg.cc/FKLgWY43/Automation_Z_Admin_Orchestrator.png)](https://postimg.cc/rdqrzFzw)
 ## Overview
 Central orchestration engine combining plans, mappings, profiles, and scheduling into one control flow.
