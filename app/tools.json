@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "Deploy",
+      "name": "AutomationZ Mod Update Auto Deploy",
+      "type": "python",
+      "entry": "../AutomationZ_Mod_Update_Auto_Deploy/main.py",
+      "cwd": "../AutomationZ_Mod_Update_Auto_Deploy",
+      "args": [],
+      "description": "Watches Steam workshop mod folders for updated files and Uploads the updated @mod folder to your game server."
+    },
+    {
       "id": "admin_orchestrator",
       "name": "AutomationZ Admin Orchestrator",
       "type": "python",
@@ -55,4 +64,5 @@
       "description": "Upload presets / files to servers (FTP/FTPS) \u2013 standalone tool."
     }
   ]
+
 }
