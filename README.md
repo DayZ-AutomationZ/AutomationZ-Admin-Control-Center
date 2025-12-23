@@ -27,7 +27,7 @@ This is a **server-side automation control panel** for real administrators.
 
 ---
 
-## 👑 What This Tool Is
+## 👑 What This Tool Is ( Tool_List ) 
 
 AutomationZ Admin Control Center acts as the **master controller** for:
 
@@ -261,9 +261,9 @@ All future tools inherit:
 
 # Included Tools:
 # AutomationZ_Admin_Orchestrator
-https://github.com/DayZ-AutomationZ/AutomationZ_Admin_Orchestrator
+https://github.com/DayZ-AutomationZ/AutomationZ_Admin_Orchestrator [Go to Tool List](#Tool_List)
 [![Automation_Z_Admin_Orchestrator.png](https://i.postimg.cc/FKLgWY43/Automation_Z_Admin_Orchestrator.png)](https://postimg.cc/rdqrzFzw)
-## Overview [Go back to tool list](#master)
+## Overview 
 Central orchestration engine combining plans, mappings, profiles, and scheduling into one control flow.
 
 ## Purpose
