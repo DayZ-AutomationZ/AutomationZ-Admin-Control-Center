@@ -480,5 +480,29 @@ Extend it.
 
 If it saves you time, stress, or a late-night server restart — it has done its job.
 
-Created by **Danny van den Brande**
+## Credits
+
+---
+🧩 AutomationZ Admin Control Center
+These tools are part of the AutomationZ Admin Toolkit:
+
+- AutomationZ Uploader
+- AutomationZ Scheduler
+- AutomationZ Server Backup Scheduler
+- AutomationZ Server Health
+- AutomationZ Config Diff 
+- AutomationZ Admin Orchestrator
+- AutomationZ Log Cleanup Scheduler
+
+Together they form a complete server administration solution.
+
+### 💚 Support the project
+
+AutomationZ tools are built for server owners by a server owner.  
+If these tools save you time or help your community, consider supporting development.
+
+☕ Support me [Ko-fi](https://ko-fi.com/dannyvandenbrande) 
+
+Created by **Danny van den Brande**  
+DayZ AutomationZ
 
