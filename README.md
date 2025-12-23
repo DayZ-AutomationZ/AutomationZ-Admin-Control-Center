@@ -8,6 +8,9 @@ from **one unified desktop interface**.
 
 [![Automation_Z_Admin_Control_Center.png](https://i.postimg.cc/d0ymHhY8/Automation_Z_Admin_Control_Center.png)](https://postimg.cc/hJKdhPhj)
 
+# AutomationZ_Admin_Control_Center_Manage_Tools
+[![Automation_Z_Admin_Control_Center_Manage_tools.png](https://i.postimg.cc/FKLgWY4c/Automation_Z_Admin_Control_Center_Manage_tools.png)](https://postimg.cc/v1GVDHDH)
+
 ## Overview
 Main AutomationZ Control Center dashboard launching and supervising all AutomationZ tools.
 
@@ -298,12 +301,6 @@ Central orchestration engine combining plans, mappings, profiles, and scheduling
 ## Purpose
 This screen demonstrates how **AutomationZ Admin Orchestrator** integrates into the AutomationZ ecosystem.
 
-## Key Features
-- Unified AutomationZ dark UI
-- Profile-based server targeting
-- Safe automation workflows
-- Visual status & logging feedback
-
 # AutomationZ_Log_Cleanup_Scheduler
 [Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/AutomationZ_Log_Cleanup_Scheduler) 
 Nothing new under the hood here — this version only changes the UI.
@@ -315,12 +312,6 @@ Automated log retention and cleanup scheduler to prevent disk bloat and keep ser
 
 ## Purpose
 This screen demonstrates how **AutomationZ Log Cleanup Scheduler** integrates into the AutomationZ ecosystem.
-
-## Key Features
-- Unified AutomationZ dark UI
-- Profile-based server targeting
-- Safe automation workflows
-- Visual status & logging feedback
 
 # AutomationZ_Scheduler
 [Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/DayZ-AutomationZ-Scheduler) 
@@ -334,12 +325,6 @@ Time-based automation engine for executing preset uploads and tasks without serv
 ## Purpose
 This screen demonstrates how **AutomationZ Scheduler** integrates into the AutomationZ ecosystem.
 
-## Key Features
-- Unified AutomationZ dark UI
-- Profile-based server targeting
-- Safe automation workflows
-- Visual status & logging feedback
-
 # AutomationZ_Server_Backup_Scheduler
 [Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/AutomationZ-Server-Backup-Scheduler) 
 Nothing new under the hood here — this version only changes the UI.
@@ -351,12 +336,6 @@ Scheduled snapshot and backup automation with profile-based targets and restore-
 
 ## Purpose
 This screen demonstrates how **AutomationZ Server Backup Scheduler** integrates into the AutomationZ ecosystem.
-
-## Key Features
-- Unified AutomationZ dark UI
-- Profile-based server targeting
-- Safe automation workflows
-- Visual status & logging feedback
 
 # AutomationZ_Server_Health
 [Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/AutomationZ-Server-Health) 
@@ -370,12 +349,6 @@ Live server log monitoring tool with crash detection, error scanning, and Discor
 ## Purpose
 This screen demonstrates how **AutomationZ Server Health** integrates into the AutomationZ ecosystem.
 
-## Key Features
-- Unified AutomationZ dark UI
-- Profile-based server targeting
-- Safe automation workflows
-- Visual status & logging feedback
-
 # AutomationZ_Uploader
 [Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/DayZ-AutomationZ-Uploader-FTP-Tool) 
 Nothing new under the hood here — this version only changes the UI.
@@ -387,12 +360,6 @@ Preset-based FTP/FTPS uploader for pushing server configuration files safely wit
 
 ## Purpose
 This screen demonstrates how **AutomationZ Uploader** integrates into the AutomationZ ecosystem.
-
-## Key Features
-- Unified AutomationZ dark UI
-- Profile-based server targeting
-- Safe automation workflows
-- Visual status & logging feedback
 
 ## Notes
 These interfaces are part of the **AutomationZ Admin Control Center** suite.
