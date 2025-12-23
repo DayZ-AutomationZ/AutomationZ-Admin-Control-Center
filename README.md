@@ -288,7 +288,7 @@ All future tools inherit:
 [Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/AutomationZ_Admin_Orchestrator) 
 Nothing new under the hood here — this version only changes the UI.
 The logic and functionality are exactly the same as the original tool.
-If you already use AutomationZ, you can just drop the `main.py` in the AutomationZ_Admin_Orchestrator folder into the original repository to switch to the new design.
+If you already use AutomationZ, you can just drop the `main.py` in the AutomationZ_Admin_Orchestrator folder from this repo into the original repository to switch to the new design.
 [![Automation_Z_Admin_Orchestrator.png](https://i.postimg.cc/FKLgWY43/Automation_Z_Admin_Orchestrator.png)](https://postimg.cc/rdqrzFzw)
 ## Overview 
 Central orchestration engine combining plans, mappings, profiles, and scheduling into one control flow.
@@ -303,7 +303,10 @@ This screen demonstrates how **AutomationZ Admin Orchestrator** integrates into 
 - Visual status & logging feedback
 
 # AutomationZ_Log_Cleanup_Scheduler
-
+[Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/AutomationZ_Log_Cleanup_Scheduler) 
+Nothing new under the hood here — this version only changes the UI.
+The logic and functionality are exactly the same as the original tool.
+If you already use AutomationZ, you can just drop the `main.py` in the AutomationZ_Admin_Orchestrator folder from this repo into the original repository to switch to the new design.
 [![Automation_Z_Log_Cleanup_Scheduler.png](https://i.postimg.cc/DzXdjSTJ/Automation_Z_Log_Cleanup_Scheduler.png)](https://postimg.cc/wt9m3T3g)
 ## Overview
 Automated log retention and cleanup scheduler to prevent disk bloat and keep servers clean.
