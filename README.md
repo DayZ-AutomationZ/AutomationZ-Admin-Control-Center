@@ -34,7 +34,7 @@ AutomationZ Admin Control Center acts as the **master controller** for:
 - AutomationZ Uploader [Go to AutomationZ Uploader](#AutomationZ_Uploader)
 - AutomationZ Scheduler
 - AutomationZ Backup Scheduler
-- AutomationZ Server Health Monitor
+- AutomationZ Server Health Monitor [Go to AutomationZ Server Health Monitor](#AutomationZ_Server_Health) 
 - AutomationZ Log Cleanup Scheduler [Go to AutomationZ AutomationZ Log Cleanup Scheduler](#AutomationZ_Log_Cleanup_Scheduler) 
 - AutomationZ Admin Orchestrator [Go to AutomationZ AutomationZ Admin Orchestrator](#AutomationZ_Admin_Orchestrator) 
 - Future AutomationZ tools
