@@ -31,7 +31,7 @@ This is a **server-side automation control panel** for real administrators.
 
 AutomationZ Admin Control Center acts as the **master controller** for:
 
-- AutomationZ Uploader [Go to AutomationZ Uploader](#Automationz-Uploader)
+- AutomationZ Uploader [Go to AutomationZ Uploader](#AutomationZ_Uploader)
 - AutomationZ Scheduler
 - AutomationZ Backup Scheduler
 - AutomationZ Server Health Monitor
