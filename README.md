@@ -375,7 +375,10 @@ This screen demonstrates how **AutomationZ Server Health** integrates into the A
 - Visual status & logging feedback
 
 # AutomationZ_Uploader
-
+[Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/DayZ-AutomationZ-Uploader-FTP-Tool) 
+Nothing new under the hood here — this version only changes the UI.
+The logic and functionality are exactly the same as the original tool.
+If you already use AutomationZ, you can just drop the `main.py` in the AutomationZ_Admin_Orchestrator folder from this repo into the original repository to switch to the new design.
 [![Automation_Z_Uploader.png](https://i.postimg.cc/DzXdjST4/Automation_Z_Uploader.png)](https://postimg.cc/MczQXKXz)
 ## Overview
 Preset-based FTP/FTPS uploader for pushing server configuration files safely with preview, backups, and exact path mapping.
