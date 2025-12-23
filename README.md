@@ -8,7 +8,7 @@ from **one unified desktop interface**.
 
 [![Automation_Z_Admin_Control_Center.png](https://i.postimg.cc/d0ymHhY8/Automation_Z_Admin_Control_Center.png)](https://postimg.cc/hJKdhPhj)
 
-# Simply add delete tools with Manage Tools
+# Simply add / delete / order tools with Manage Tools
 [![Automation_Z_Admin_Control_Center_Manage_tools.png](https://i.postimg.cc/FKLgWY4c/Automation_Z_Admin_Control_Center_Manage_tools.png)](https://postimg.cc/v1GVDHDH)
 
 ## Overview
