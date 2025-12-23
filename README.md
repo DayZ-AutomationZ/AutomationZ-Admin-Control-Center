@@ -285,7 +285,10 @@ All future tools inherit:
 
 # Included Tools:
 # AutomationZ_Admin_Orchestrator
-[Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/AutomationZ_Admin_Orchestrator) The corresponding main.py in this repo can simply be added to the original repo. the only different is the Design of the UI the rest is exactly the same. So if you allready use the Original Tool just drop in the main.py if you want to change the UI Design.
+[Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/AutomationZ_Admin_Orchestrator) 
+Nothing new under the hood here — this version only changes the UI.
+The logic and functionality are exactly the same as the original tool.
+If you already use AutomationZ, you can just drop the `main.py` in the AutomationZ_Admin_Orchestrator folder into the original repository to switch to the new design.
 [![Automation_Z_Admin_Orchestrator.png](https://i.postimg.cc/FKLgWY43/Automation_Z_Admin_Orchestrator.png)](https://postimg.cc/rdqrzFzw)
 ## Overview 
 Central orchestration engine combining plans, mappings, profiles, and scheduling into one control flow.
