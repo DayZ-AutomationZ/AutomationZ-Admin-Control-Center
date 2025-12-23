@@ -321,7 +321,10 @@ This screen demonstrates how **AutomationZ Log Cleanup Scheduler** integrates in
 - Visual status & logging feedback
 
 # AutomationZ_Scheduler
-
+[Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/DayZ-AutomationZ-Scheduler) 
+Nothing new under the hood here — this version only changes the UI.
+The logic and functionality are exactly the same as the original tool.
+If you already use AutomationZ, you can just drop the `main.py` in the AutomationZ_Admin_Orchestrator folder from this repo into the original repository to switch to the new design.
 [![Automation_Z_Scheduler.png](https://i.postimg.cc/HLy4Zrgb/Automation_Z_Scheduler.png)](https://postimg.cc/WDsktbt4)
 ## Overview
 Time-based automation engine for executing preset uploads and tasks without server restarts.
