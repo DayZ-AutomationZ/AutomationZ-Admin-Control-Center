@@ -486,6 +486,7 @@ If it saves you time, stress, or a late-night server restart — it has done its
 🧩 AutomationZ Admin Control Center
 These tools are part of the AutomationZ Admin Toolkit:
 
+- AutomationZ Mod Update Auto Deploy (steam workshop)
 - AutomationZ Uploader
 - AutomationZ Scheduler
 - AutomationZ Server Backup Scheduler
