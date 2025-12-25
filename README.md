@@ -42,6 +42,7 @@ AutomationZ Admin Control Center acts as the **master controller** for:
 - AutomationZ Server Backup Scheduler [Go to AutomationZ Server Backup Scheduler](#AutomationZ_Server_Backup_Scheduler) 
 - AutomationZ Server Health Monitor [Go to AutomationZ Server Health Monitor](#AutomationZ_Server_Health)
 - AutomationZ Uploader [Go to AutomationZ Uploader](#AutomationZ_Uploader)
+- AutomationZ Mod Update Auto Deploy [Go to AutomationZ Mod Update Auto Deploy](#AutomationZ_Mod_Update_Auto_Deploy) 
 - Future AutomationZ tools
 
 ## 🧰 AutomationZ Tools Overview
@@ -317,7 +318,8 @@ This screen demonstrates how **AutomationZ Log Cleanup Scheduler** integrates in
 [Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/Steam-Workshop-Mod-Update-Auto-Deploy) 
 [![Automation_Z_Mod_Update_Auto_Deploy_Dashboard.png](https://i.postimg.cc/zGxm7tkV/Automation_Z_Mod_Update_Auto_Deploy_Dashboard.png)](https://postimg.cc/18VY5K2Q)
 ## Overview
-Automated log retention and cleanup scheduler to prevent disk bloat and keep servers clean.
+AutomationZ Mod Update Auto-Deploy is a desktop tool designed to automatically detect Steam Workshop mod updates and deploy them to your server — without manual uploads, late-night restarts, or players being locked out due to outdated mods.
+Originally built for DayZ, this tool works just as well for Arma, other modded games, VPS servers, server parks, and any workflow where folders need to stay in sync.
 
 ## Purpose
 This screen demonstrates how **AutomationZ Mod Update Auto Deploy** integrates into the AutomationZ ecosystem.
