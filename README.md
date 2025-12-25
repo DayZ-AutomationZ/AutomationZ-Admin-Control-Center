@@ -43,7 +43,7 @@ AutomationZ Admin Control Center acts as the **master controller** for:
 - AutomationZ Server Health Monitor [Go to AutomationZ Server Health Monitor](#AutomationZ_Server_Health)
 - AutomationZ Uploader [Go to AutomationZ Uploader](#AutomationZ_Uploader)
 - AutomationZ Mod Update Auto Deploy [Go to AutomationZ Mod Update Auto Deploy](#AutomationZ_Mod_Update_Auto_Deploy)
-- AutomationZ_Restart_Loop_Guard
+- AutomationZ Restart Loop Guard [Go to AutomationZ Restart Loop Guard](#AutomationZ_Restart_Loop_Guard)
 - Future AutomationZ tools
 
 ## 🧰 AutomationZ Tools Overview
