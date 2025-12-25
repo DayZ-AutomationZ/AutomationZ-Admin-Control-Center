@@ -14,9 +14,6 @@ from **one unified desktop interface**.
 ## Overview
 Main AutomationZ Control Center dashboard launching and supervising all AutomationZ tools.
 
-## Purpose
-This screen demonstrates how **AutomationZ Admin Control Center** integrates into the AutomationZ ecosystem.
-
 ## Key Features
 - Unified AutomationZ dark UI
 - Profile-based server targeting
@@ -300,9 +297,6 @@ If you already use AutomationZ, you can just drop the `main.py` in the Automatio
 ## Overview 
 Central orchestration engine combining plans, mappings, profiles, and scheduling into one control flow.
 
-## Purpose
-This screen demonstrates how **AutomationZ Admin Orchestrator** integrates into the AutomationZ ecosystem.
-
 # AutomationZ_Log_Cleanup_Scheduler
 [Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/AutomationZ_Log_Cleanup_Scheduler) 
 Nothing new under the hood here — this version only changes the UI.
@@ -312,18 +306,12 @@ If you already use AutomationZ, you can just drop the `main.py` in the Automatio
 ## Overview
 Automated log retention and cleanup scheduler to prevent disk bloat and keep servers clean.
 
-## Purpose
-This screen demonstrates how **AutomationZ Log Cleanup Scheduler** integrates into the AutomationZ ecosystem.
-
 # AutomationZ_Mod_Update_Auto_Deploy
 [Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/Steam-Workshop-Mod-Update-Auto-Deploy) 
 [![Automation_Z_Mod_Update_Auto_Deploy_Dashboard.png](https://i.postimg.cc/zGxm7tkV/Automation_Z_Mod_Update_Auto_Deploy_Dashboard.png)](https://postimg.cc/18VY5K2Q)
 ## Overview
 AutomationZ Mod Update Auto-Deploy is a desktop tool designed to automatically detect Steam Workshop mod updates and deploy them to your server — without manual uploads, late-night restarts, or players being locked out due to outdated mods.
 Originally built for DayZ, this tool works just as well for Arma, other modded games, VPS servers, server parks, and any workflow where folders need to stay in sync.
-
-## Purpose
-This screen demonstrates how **AutomationZ Mod Update Auto Deploy** integrates into the AutomationZ ecosystem.
 
 # AutomationZ_Scheduler
 [Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/DayZ-AutomationZ-Scheduler) 
@@ -334,9 +322,6 @@ If you already use AutomationZ, you can just drop the `main.py` in the Automatio
 ## Overview
 Time-based automation engine for executing preset uploads and tasks without server restarts.
 
-## Purpose
-This screen demonstrates how **AutomationZ Scheduler** integrates into the AutomationZ ecosystem.
-
 # AutomationZ_Server_Backup_Scheduler
 [Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/AutomationZ-Server-Backup-Scheduler) 
 Nothing new under the hood here — this version only changes the UI.
@@ -345,9 +330,6 @@ If you already use AutomationZ, you can just drop the `main.py` in the Automatio
 [![Automation_Z_Server_Backup_Scheduler.png](https://i.postimg.cc/zfgStyrg/Automation_Z_Server_Backup_Scheduler.png)](https://postimg.cc/3y3vWJW8)
 ## Overview
 Scheduled snapshot and backup automation with profile-based targets and restore-ready archives.
-
-## Purpose
-This screen demonstrates how **AutomationZ Server Backup Scheduler** integrates into the AutomationZ ecosystem.
 
 # AutomationZ_Server_Health
 [Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/AutomationZ-Server-Health) 
@@ -358,9 +340,6 @@ If you already use AutomationZ, you can just drop the `main.py` in the Automatio
 ## Overview
 Live server log monitoring tool with crash detection, error scanning, and Discord notifications.
 
-## Purpose
-This screen demonstrates how **AutomationZ Server Health** integrates into the AutomationZ ecosystem.
-
 # AutomationZ_Uploader
 [Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/DayZ-AutomationZ-Uploader-FTP-Tool) 
 Nothing new under the hood here — this version only changes the UI.
@@ -370,18 +349,12 @@ If you already use AutomationZ, you can just drop the `main.py` in the Automatio
 ## Overview
 Preset-based FTP/FTPS uploader for pushing server configuration files safely with preview, backups, and exact path mapping.
 
-## Purpose
-This screen demonstrates how **AutomationZ Uploader** integrates into the AutomationZ ecosystem.
-
 # AutomationZ_Restart_Loop_Guard
 [Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/AutomationZ_Restart_Loop_Guard) 
 [![Automation_Z_Restart_Loop_Guard_Dashboard.png](https://i.postimg.cc/yN2f0Wb6/Automation_Z_Restart_Loop_Guard_Dashboard.png)](https://postimg.cc/CZHHgM09)
 ## Overview
 AutomationZ Restart Loop Guard is a lightweight admin UI tool that prevents infinite restart loops by guarding restart/start attempts on the local machine.
 It does not detect crashes. It protects your automation from repeatedly restarting a failing service or game server.
-
-## Purpose
-This screen demonstrates how **AutomationZ Restart Loop Guard** integrates into the AutomationZ ecosystem.
 
 ## Notes
 These interfaces are part of the **AutomationZ Admin Control Center** suite.                        
