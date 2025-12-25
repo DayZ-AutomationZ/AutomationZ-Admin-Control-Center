@@ -55,7 +55,7 @@
       "description": "Delete log-folder contents on a schedule (local + FTP), with exclusion rules."
     },
     {
-      "id": "Loop_Guard ",
+      "id": "Restart_Guard ",
       "name": "AutomationZ Restart Loop Guard",
       "type": "python",
       "entry": "../AutomationZ_Restart_Loop_Guard/app/main.py",
@@ -75,5 +75,6 @@
   ]
 
 }
+
 
 
