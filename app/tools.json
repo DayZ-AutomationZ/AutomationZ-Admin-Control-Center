@@ -61,7 +61,7 @@
       "entry": "../AutomationZ_Restart_Loop_Guard/app/main.py",
       "cwd": "../AutomationZ_Restart_Loop_Guard",
       "args": [],
-      "description": "Delete log-folder contents on a schedule (local + FTP), with exclusion rules."
+      "description": "Tracks restart/start attempts within a configurable time window, Locks further attempts when a threshold is reached, Persists the lock across reboots (manual unlock required)"
     },
     {
       "id": "uploader",
@@ -75,4 +75,5 @@
   ]
 
 }
+
 
