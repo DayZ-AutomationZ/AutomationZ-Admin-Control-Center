@@ -313,6 +313,15 @@ Automated log retention and cleanup scheduler to prevent disk bloat and keep ser
 ## Purpose
 This screen demonstrates how **AutomationZ Log Cleanup Scheduler** integrates into the AutomationZ ecosystem.
 
+# AutomationZ_Mod_Update_Auto_Deploy
+[Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/Steam-Workshop-Mod-Update-Auto-Deploy) 
+[![Automation_Z_Mod_Update_Auto_Deploy_Dashboard.png](https://i.postimg.cc/zGxm7tkV/Automation_Z_Mod_Update_Auto_Deploy_Dashboard.png)](https://postimg.cc/18VY5K2Q)
+## Overview
+Automated log retention and cleanup scheduler to prevent disk bloat and keep servers clean.
+
+## Purpose
+This screen demonstrates how **AutomationZ Mod Update Auto Deploy** integrates into the AutomationZ ecosystem.
+
 # AutomationZ_Scheduler
 [Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/DayZ-AutomationZ-Scheduler) 
 Nothing new under the hood here — this version only changes the UI.
