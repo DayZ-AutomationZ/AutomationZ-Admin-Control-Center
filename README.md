@@ -42,7 +42,8 @@ AutomationZ Admin Control Center acts as the **master controller** for:
 - AutomationZ Server Backup Scheduler [Go to AutomationZ Server Backup Scheduler](#AutomationZ_Server_Backup_Scheduler) 
 - AutomationZ Server Health Monitor [Go to AutomationZ Server Health Monitor](#AutomationZ_Server_Health)
 - AutomationZ Uploader [Go to AutomationZ Uploader](#AutomationZ_Uploader)
-- AutomationZ Mod Update Auto Deploy [Go to AutomationZ Mod Update Auto Deploy](#AutomationZ_Mod_Update_Auto_Deploy) 
+- AutomationZ Mod Update Auto Deploy [Go to AutomationZ Mod Update Auto Deploy](#AutomationZ_Mod_Update_Auto_Deploy)
+- AutomationZ_Restart_Loop_Guard
 - Future AutomationZ tools
 
 ## 🧰 AutomationZ Tools Overview
@@ -372,8 +373,18 @@ Preset-based FTP/FTPS uploader for pushing server configuration files safely wit
 ## Purpose
 This screen demonstrates how **AutomationZ Uploader** integrates into the AutomationZ ecosystem.
 
+# AutomationZ_Restart_Loop_Guard
+[Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/AutomationZ_Restart_Loop_Guard) 
+[![Automation_Z_Restart_Loop_Guard_Dashboard.png](https://i.postimg.cc/yN2f0Wb6/Automation_Z_Restart_Loop_Guard_Dashboard.png)](https://postimg.cc/CZHHgM09)
+## Overview
+AutomationZ Restart Loop Guard is a lightweight admin UI tool that prevents infinite restart loops by guarding restart/start attempts on the local machine.
+It does not detect crashes. It protects your automation from repeatedly restarting a failing service or game server.
+
+## Purpose
+This screen demonstrates how **AutomationZ Restart Loop Guard** integrates into the AutomationZ ecosystem.
+
 ## Notes
-These interfaces are part of the **AutomationZ Admin Control Center** suite.
+These interfaces are part of the **AutomationZ Admin Control Center** suite.                        
 
 ## Why_AutomationZ_Exists
 
