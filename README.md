@@ -497,6 +497,7 @@ Together they form a complete server administration solution.
 
 AutomationZ tools are built for server owners by a server owner.  
 If these tools save you time or help your community, consider supporting development.
+#
 “Built to quietly solve problems, not to impress.”
 
 ☕ Support me [Ko-fi](https://ko-fi.com/dannyvandenbrande) 
