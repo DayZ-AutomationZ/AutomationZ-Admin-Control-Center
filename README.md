@@ -41,6 +41,7 @@ AutomationZ Admin Control Center acts as the **master controller** for:
 - AutomationZ Uploader [Go to AutomationZ Uploader](#AutomationZ_Uploader)
 - AutomationZ Mod Update Auto Deploy [Go to AutomationZ Mod Update Auto Deploy](#AutomationZ_Mod_Update_Auto_Deploy)
 - AutomationZ Restart Loop Guard [Go to AutomationZ Restart Loop Guard](#AutomationZ_Restart_Loop_Guard)
+- AutomationZ Restart Companion [AutomationZ Restart Companion](#AutomationZ_Restart_Companion)
 - Future AutomationZ tools
 
 ## 🧰 AutomationZ Tools Overview
@@ -312,6 +313,12 @@ Automated log retention and cleanup scheduler to prevent disk bloat and keep ser
 ## Overview
 AutomationZ Mod Update Auto-Deploy is a desktop tool designed to automatically detect Steam Workshop mod updates and deploy them to your server — without manual uploads, late-night restarts, or players being locked out due to outdated mods.
 Originally built for DayZ, this tool works just as well for Arma, other modded games, VPS servers, server parks, and any workflow where folders need to stay in sync.
+
+# AutomationZ_Restart_Companion
+[Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/AutomationZ-Restart-Companion) 
+[![Automation_Z_Restart_Companion.png](https://i.postimg.cc/yxnvGV6q/Automation_Z_Restart_Companion.png)](https://postimg.cc/5QYBYWFp)
+## Overview
+A lightweight monitoring companion that detects file or marker updates and safely triggers server restarts with a delay you can set. Designed to work seamlessly with AutomationZ Mod Update Auto-Deploy: after mods are deployed, a marker send by Mod Update Auto Deploy is being watched by Restart Companion and if it detects a timestamp change, it triggers a timed restart via local, RCON, or when restart fails a notify fallback using discord! So you can restart manual in your Mobile server panel or website control panel on fail. Reliable, simple, and admin-friendly.
 
 # AutomationZ_Scheduler
 [Go to Original Projects Repo for detailed description](https://github.com/DayZ-AutomationZ/DayZ-AutomationZ-Scheduler) 
