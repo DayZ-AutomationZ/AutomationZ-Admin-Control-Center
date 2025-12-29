@@ -2,7 +2,7 @@
   "tools": [
     {
       "id": "Deploy",
-      "name": "AutomationZ Mod Update Auto Deploy",       AutomationZ-Restart-Companion
+      "name": "AutomationZ Mod Update Auto Deploy",
       "type": "python",
       "entry": "../AutomationZ_Mod_Update_Auto_Deploy/main.py",
       "cwd": "../AutomationZ_Mod_Update_Auto_Deploy",
@@ -84,6 +84,7 @@
   ]
 
 }
+
 
 
 
