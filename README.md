@@ -40,8 +40,8 @@ AutomationZ Admin Control Center acts as the **master controller** for:
 - AutomationZ Server Health Monitor [Go to AutomationZ Server Health Monitor](#AutomationZ_Server_Health)
 - AutomationZ Uploader [Go to AutomationZ Uploader](#AutomationZ_Uploader)
 - AutomationZ Mod Update Auto Deploy [Go to AutomationZ Mod Update Auto Deploy](#AutomationZ_Mod_Update_Auto_Deploy)
-- AutomationZ Restart Loop Guard [Go to AutomationZ Restart Loop Guard](#AutomationZ_Restart_Loop_Guard)
 - AutomationZ Restart Companion [AutomationZ Restart Companion](#AutomationZ_Restart_Companion)
+- AutomationZ Restart Loop Guard [Go to AutomationZ Restart Loop Guard](#AutomationZ_Restart_Loop_Guard)
 - Future AutomationZ tools
 
 ## 🧰 AutomationZ Tools Overview
@@ -63,6 +63,15 @@ AutomationZ Admin Control Center acts as the **master controller** for:
 
 - **AutomationZ Uploader**  
   Safely deploy configuration presets to servers using FTP/FTPS with preview, validation, and automatic backups.
+
+- **AutomationZ Mod Update Auto Deploy**  
+  Watches Steam !workshop folder for updates mods deploys and updates your server works together with Restart Companion.
+
+- **AutomationZ Restart Companion**  
+  Watches a markerfile send by Mod Update auto Deploy after a mod update and triggers a restart after detecting change in the markerfile.
+
+- **AutomationZ Restart Loop Guard**  
+  Protects servers from restart loops and locks it, manual unlock required.
 
 - **Future AutomationZ Tools**  
   The AutomationZ platform is designed for expansion, allowing new automation modules to integrate seamlessly into the control panel.  
