@@ -9,6 +9,7 @@ import pathlib
 import datetime
 import traceback
 import shutil
+import time
 from dataclasses import dataclass
 from typing import List, Optional, Dict, Any, Tuple
 
@@ -21,7 +22,7 @@ except Exception as e:
     raise SystemExit("Tkinter is required. Error: %s" % e)
 
 APP_NAME = "AutomationZ Server Backup Scheduler"
-APP_VERSION = "1.0.3"
+APP_VERSION = "1.0.4"
 
 BASE_DIR = pathlib.Path(__file__).resolve().parent.parent
 CONFIG_DIR = BASE_DIR / "config"
@@ -254,74 +255,161 @@ def load_settings() -> Dict[str, Any]:
     })
 
 class FTPClient:
+    MAX_RETRIES = 5
+    RETRY_DELAY_SECONDS = 3
+
     def __init__(self, profile: Profile, timeout: int):
         self.p = profile
         self.timeout = timeout
         self.ftp: Optional[ftplib.FTP] = None
 
     def connect(self):
+        # Always discard any stale control connection before reconnecting.
+        self.close()
         ftp = ftplib.FTP_TLS(timeout=self.timeout) if self.p.tls else ftplib.FTP(timeout=self.timeout)
         ftp.connect(self.p.host, self.p.port)
         ftp.login(self.p.username, self.p.password)
         if self.p.tls and isinstance(ftp, ftplib.FTP_TLS):
             ftp.prot_p()
+        ftp.set_pasv(True)
         self.ftp = ftp
 
+    def reconnect(self):
+        self.close()
+        time.sleep(self.RETRY_DELAY_SECONDS)
+        self.connect()
+
     def close(self):
+        ftp = self.ftp
+        self.ftp = None
+        if not ftp:
+            return
         try:
-            if self.ftp:
-                self.ftp.quit()
+            ftp.quit()
         except Exception:
             try:
-                if self.ftp:
-                    self.ftp.close()
+                ftp.close()
             except Exception:
                 pass
-        self.ftp = None
+
+    def _require_ftp(self) -> ftplib.FTP:
+        if self.ftp is None:
+            self.connect()
+        return self.ftp
 
     def pwd(self) -> str:
-        return self.ftp.pwd() if self.ftp else ""
+        return self._require_ftp().pwd()
 
     def is_dir(self, path: str) -> bool:
-        cur = self.ftp.pwd()
-        try:
-            self.ftp.cwd(path)
-            self.ftp.cwd(cur)
-            return True
-        except Exception:
+        # A dropped control connection must be retried instead of being
+        # mistaken for "this path is not a directory".
+        for attempt in range(1, self.MAX_RETRIES + 1):
+            ftp = self._require_ftp()
+            cur = None
             try:
-                self.ftp.cwd(cur)
-            except Exception:
-                pass
-            return False
+                cur = ftp.pwd()
+                ftp.cwd(path)
+                ftp.cwd(cur)
+                return True
+            except (EOFError, OSError, ftplib.error_temp):
+                if attempt >= self.MAX_RETRIES:
+                    raise
+                self.reconnect()
+            except ftplib.error_perm:
+                if cur:
+                    try:
+                        ftp.cwd(cur)
+                    except Exception:
+                        pass
+                return False
+        return False
 
     def list_dir(self, path: str) -> List[str]:
-        items: List[str] = []
-        try:
-            for name, facts in self.ftp.mlsd(path):
-                if name in (".", ".."):
-                    continue
-                items.append(name)
-            return items
-        except Exception:
-            pass
-        try:
-            raw = self.ftp.nlst(path)
-            for r in raw:
-                r = r.replace("\\", "/")
-                items.append(r.split("/")[-1])
-            seen=set(); out=[]
-            for x in items:
-                if x not in seen:
-                    seen.add(x); out.append(x)
-            return out
-        except Exception:
-            return []
+        last_error = None
+
+        for attempt in range(1, self.MAX_RETRIES + 1):
+            ftp = self._require_ftp()
+            items: List[str] = []
+
+            try:
+                for name, facts in ftp.mlsd(path):
+                    if name in (".", ".."):
+                        continue
+                    items.append(name)
+                return items
+            except (EOFError, OSError, ftplib.error_temp) as exc:
+                last_error = exc
+                if attempt >= self.MAX_RETRIES:
+                    raise
+                self.reconnect()
+                continue
+            except (ftplib.error_perm, AttributeError):
+                # Some FTP servers do not support MLSD; fall back to NLST.
+                pass
+
+            try:
+                raw = ftp.nlst(path)
+                for r in raw:
+                    r = r.replace("\\", "/")
+                    items.append(r.split("/")[-1])
+
+                seen = set()
+                out = []
+                for x in items:
+                    if x and x not in seen:
+                        seen.add(x)
+                        out.append(x)
+                return out
+            except (EOFError, OSError, ftplib.error_temp) as exc:
+                last_error = exc
+                if attempt >= self.MAX_RETRIES:
+                    raise
+                self.reconnect()
+            except ftplib.error_perm:
+                # Do not silently pretend the directory is empty.
+                raise
+
+        if last_error:
+            raise last_error
+        return []
 
     def download_file(self, remote_full: str, local_path: pathlib.Path):
         local_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(local_path, "wb") as f:
-            self.ftp.retrbinary("RETR " + remote_full, f.write)
+        temp_path = local_path.with_name(local_path.name + ".part")
+
+        last_error = None
+        for attempt in range(1, self.MAX_RETRIES + 1):
+            try:
+                ftp = self._require_ftp()
+
+                # Every retry starts from byte 0. Only replace the final file
+                # after the transfer completes successfully.
+                with open(temp_path, "wb") as f:
+                    ftp.retrbinary(
+                        "RETR " + remote_full,
+                        f.write,
+                        blocksize=1024 * 1024,
+                    )
+
+                os.replace(temp_path, local_path)
+                return
+
+            except ftplib.all_errors as exc:
+                last_error = exc
+
+                try:
+                    if temp_path.exists():
+                        temp_path.unlink()
+                except OSError:
+                    pass
+
+                if attempt >= self.MAX_RETRIES:
+                    raise
+
+                self.reconnect()
+
+        if last_error:
+            raise last_error
 
 def weekday_now() -> str:
     return DAYS[datetime.datetime.now().weekday()]
